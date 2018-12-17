@@ -1,0 +1,102 @@
+body {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 0.6em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p, ul, ol {
+  margin: 0.5em 0;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li {
+  margin: 0.5em 0;
+  margin-left: 2em;
+}
+
+b {
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  padding: 0 10px;
+  background: #000 url(../img/background.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+  header {
+    height: 500px;
+  }
+}
+
+section,
+footer {
+  margin: 4em auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+footer {
+  text-align: right;
+}
+
+footer p,
+footer li {
+  margin: 0;
+}
+
+footer ul {
+  margin: 1em 0 0;
+  list-style: none;
+}
+
+footer li {
+}
+
+.button {
+  text-align: center;
+}
+
+.button a {
+  display: inline-block;
+  padding: 0.5em 1em 0.4em;
+  border-radius: 3px;
+  text-decoration: none;
+  background: #008CBA;
+  color: #FFF;
+  font-size: 1.4em;
+}
+
+.button a:hover {
+  filter: brightness(1.1);
+}
