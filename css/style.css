@@ -87,16 +87,18 @@ footer li {
   text-align: center;
 }
 
-.button a {
+.button button {
   display: inline-block;
   padding: 0.5em 1em 0.4em;
+  border: 0;
   border-radius: 3px;
   text-decoration: none;
   background: #008CBA;
   color: #FFF;
   font-size: 1.4em;
+  cursor: pointer;
 }
 
-.button a:hover {
+.button button:hover {
   filter: brightness(1.1);
 }
