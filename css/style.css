@@ -47,10 +47,12 @@ header {
   justify-content: center;
   height: 200px;
   padding: 0 10px;
-  background: #000 url(../img/background.jpg) 50% 50% no-repeat;
+  background: #000 url(../img/background.jpg?8f07efe0dbf21dd75c380e77c5096b64)
+              50% 50% no-repeat;
   background-size: cover;
   color: #FFF;
   text-align: center;
+  text-shadow: 0 0 2px #000, 0 0 3px #000, 0 0 4px #000;
 }
 
 @media only screen and (min-width: 960px) {
